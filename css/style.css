@@ -18,28 +18,3 @@ div.buttonzone {
 	padding-bottom: 20px;
 
 }
-div.democolorboxes {
-
-	width: 100px;
-	height: 100px;
-}
-
-#bluebox {
-	position: absolute;
-	top: 250px;
-	background: blue;
-}
-
-#redbox {
-	position: absolute;
-	top: 250px;
-	left: 150px;
-	background: red;
-}
-
-#greenbox {
-	position: absolute;
-	top: 250px;
-	left: 300px;
-	background: green;
-}

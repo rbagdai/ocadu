@@ -1,0 +1,1767 @@
+
+.letter {
+
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:10px solid green; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+
+.letter-a {
+position: relative;
+}
+
+.a-top-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 60px;
+	background: green;
+}
+
+.a-top-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 60px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.a-top-right-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 120px;
+	top: 60px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.a-right-stem {
+	position: absolute;
+	width: 20px;
+	height: 80px;
+	left: 120px;
+	top: 80px;
+	background: green;
+}
+
+.a-bowl-top-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 100px;
+	background: green;
+}
+
+.a-bowl-top-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 100px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.a-bowl-left-line {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 120px;
+	background: green;
+}
+
+.a-bowl-bottom-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 140px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.a-bowl-bottom-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 140px;
+	background: green;
+}
+
+.letter-b {
+position: relative;
+}
+
+.b-left-stem {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	width: 20px;
+	height: 120px;
+	background: green;
+}
+
+.b-bowl-top-line {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.b-bowl-top-right-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 120px;
+	top: 80px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.b-bowl-right-line {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.b-bowl-bottom-right-corner {
+	position: absolute;
+	top: 140px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+.b-bowl-bottom-line {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.letter-c {
+position: relative;
+}
+
+.c-top-line {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.c-top-left-corner {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.c-top-right-corner {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.c-left-line {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.c-bottom-left-corner {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.c-bottom-line {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.c-bottom-right-corner {
+	position: absolute;
+	top: 140px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.letter-d {
+position: relative;
+}
+
+.d-right-stem {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	width: 20px;
+	height: 120px;
+	background: green;
+}
+
+.d-bowl-top-line {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.d-bowl-top-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 80px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.d-bowl-left-line {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.d-bowl-bottom-left-corner {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+.d-bowl-bottom-line {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.letter-e {
+	position: relative;
+}
+
+.eleft1 {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.elefttop1 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+
+}
+
+.eleftbottom1 {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.etopbar1 {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.erighttop1 {
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.erightbar1 {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.erightbar2 {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+.ebottombar1 {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.ebottombar2 {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.ebottombar3 {
+	position: absolute;
+	top: 140px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.letter-f {
+	position: relative;
+}
+
+.f-left-bar {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 20px;
+	height: 100px;
+	background: green;
+}
+
+.f-top-left-corner {
+	position: absolute;
+	top: 40px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.f-top-bar {
+	position: absolute;
+	top: 40px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.f-cross-bar {
+	position: absolute;
+	top: 80px;
+	left: 70px;
+	width: 50px;
+	height: 20px;
+	background: green;
+}
+
+.letter-g {
+	position: relative;
+}
+
+.g-bowl-top-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 80px;
+	background: green;
+}
+
+.g-bowl-top-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 80px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.g-bowl-left-line {
+	position: absolute;
+	width: 20px;
+	height: 40px;
+	left: 60px;
+	top: 100px;
+	background: green;
+}
+
+.g-bowl-bottom-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 140px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.g-bowl-bottom-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 140px;
+	background: green;
+}
+
+.g-right-stem {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 100px;
+	background: green
+}
+
+.g-bottom-right-corner {
+	position: absolute;
+	top: 180px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.g-bottom-line {
+	position: absolute;
+	top: 180px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.g-bottom-left-corner {
+	position: absolute;
+	top: 180px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.letter-h {
+position: relative;
+}
+
+.h-left-stem {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	width: 20px;
+	height: 120px;
+	background: green;
+}
+
+.h-bowl-top-line {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.h-bowl-top-right-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 120px;
+	top: 80px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.h-bowl-right-line {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.letter-i {
+	position: relative;
+}
+
+.i-dot {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.i-stem {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.letter-j {
+	position: relative;
+}
+
+.j-dot {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.j-stem {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 20px;
+	height: 100px;
+	background: green;
+}
+
+.j-bottom-right-corner {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.j-bottom-line {
+	position: absolute;
+	top: 200px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.letter-k {
+	position: relative;
+}
+
+.k-stem {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 120px;
+	background: green;
+
+}
+
+.k-top-shoot {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 40px;
+	height: 25px;
+	background: green;
+	transform: skew(0deg,-30deg);
+	border-bottom-right-radius: 15px;
+}
+
+.k-bottom-shoot {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 45px;
+	height: 25px;
+	background: green;
+	transform: skew(0deg,35deg);
+	border-top-right-radius: 15px;
+}
+
+.letter-l {
+	position: relative;
+}
+
+.l-left-stem {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 100px;
+	background: green;
+}
+
+.l-bottom-left-corner {
+	position: absolute;
+	top: 160px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.l-bottom {
+	position: absolute;
+	top: 160px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.letter-m {
+	position: relative;
+}
+
+.m-left-bar {
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	width: 20px;
+	height: 80px;
+	background: green;
+}
+
+.m-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 60px;
+	height: 20px;
+	background: green;
+}
+
+.m-middle-bar {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.m-top-right-bar-corner {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.m-right-bar {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.letter-n {
+	position: relative;
+}
+
+.n-left-bar {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 80px;
+	background: green;
+}
+
+.n-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.n-top-right-bar-corner {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.n-right-bar {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.letter-o {
+	position: relative;
+}
+
+.o-left-bar {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.o-top-left-corner {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.o-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.o-top-right-corner {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.o-right-bar {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.o-bottom-right-corner {
+	position: absolute;
+	top: 140px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.o-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.o-bottom-left-corner {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.letter-p {
+	position: relative;
+}
+
+.p-left-stem {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 120px;
+	background: green;
+}
+
+.p-bowl-top-line {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.p-bowl-top-right-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 120px;
+	top: 80px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.p-bowl-right-line {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.p-bowl-bottom-right-corner {
+	position: absolute;
+	top: 140px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+.p-bowl-bottom-line {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.letter-q {
+	position: relative;
+}
+
+.q-bowl-top-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 80px;
+	background: green;
+}
+
+.q-bowl-top-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 80px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.q-bowl-left-line {
+	position: absolute;
+	width: 20px;
+	height: 40px;
+	left: 60px;
+	top: 100px;
+	background: green;
+}
+
+.q-bowl-bottom-left-corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 60px;
+	top: 140px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.q-bowl-bottom-line {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 80px;
+	top: 140px;
+	background: green;
+}
+
+.q-right-stem {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 100px;
+	background: green
+}
+
+.q-bottom-right-corner {
+	position: absolute;
+	top: 180px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.letter-r {
+	position: relative;
+}
+
+.r-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.r-top-left-bar-corner {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.r-left-bar {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.r-top-right-bar-corner {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.letter-s {
+	position: relative;
+}
+
+.s-top-bar {
+	position: absolute;
+	top: 80px;
+	Left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.s-top-left-corner {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.s-left-bar {
+	position: absolute;
+	top: 100px;
+	Left: 60px;
+	width: 20px;
+	height: 10px;
+	background: green;
+}
+.s-middle-left-corner {
+	position: absolute;
+	top: 110px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.s-middle-bar {
+	position: absolute;
+	top: 110px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.s-middle-right-corner {
+	position: absolute;
+	top: 110px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px
+}
+
+.s-right-bar {
+	position: absolute;
+	top: 130px;
+	left: 100px;
+	width: 20px;
+	height: 10px;
+	background: green;
+}
+
+.s-bottom-right-corner {
+	position: absolute;
+	top: 140px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.s-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+
+.letter-t {
+	position: relative;
+}
+
+.t-left-bar {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 20px;
+	height: 80px;
+	background: green;
+}
+
+.t-bottom-left-corner {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.t-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.t-cross-bar {
+	position: absolute;
+	top: 80px;
+	left: 70px;
+	width: 50px;
+	height: 20px;
+	background: green;
+}
+
+.letter-u {
+	position: relative;
+}
+
+.u-left-bar {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.u-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.u-bottom-left-bar-corner {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.u-right-bar {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	width: 20px;
+	height: 80px;
+	background: green;
+}
+
+.letter-v {
+	position: relative;
+}
+
+.v-left-stem {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 25px;
+	height: 85px;
+	background: green;
+	transform: skewX(20deg);
+	border-bottom-left-radius: 12.5px;
+}
+
+.v-right-stem {
+	position: absolute;
+	top: 80px;
+	left: 105px;
+	width: 25px;
+	height: 85px;
+	background: green;
+	transform: skewX(-20deg);
+	border-bottom-right-radius: 12.5px;
+}
+
+.letter-w {
+	position: relative;
+}
+
+.w-left-bar {
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.w-bottom-left-corner {
+	position: absolute;
+	top: 140px;
+	left: 40px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.w-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 80px;
+	height: 20px;
+	background: green;
+}
+
+.w-middle-bar {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.w-right-bar {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.letter-x {
+	position: relative;
+}
+
+.x-left-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.x-left-top-corner {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.x-top-middle-bar {
+	position: absolute;
+	top: 110px;
+	left: 80px;
+	width: 40px;
+	height: 10px;
+	background: green;
+}
+
+.x-right-top-corner {
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.x-right-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.x-left-bottom-corner {
+	position: absolute;
+	top: 120px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.x-bottom-middle-bar {
+	position: absolute;
+	top: 120px;
+	left: 80px;
+	width: 40px;
+	height: 10px;
+	background: green;
+}
+
+.x-right-bottom-corner {
+	position: absolute;
+	top: 120px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.x-right-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.x-left-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.letter-y {
+	position: relative;
+}
+
+.y-bowl-left-line {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.y-bowl-left-corner {
+	position: absolute;
+	top: 120px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.y-bowl-bottom-line {
+	position: absolute;
+	top: 120px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.y-right-stem {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 80px;
+	background: green;
+}
+
+.y-bottom-right-corner {
+	position: absolute;
+	top: 160px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.y-bottom-line {
+	position: absolute;
+	top: 160px;
+	left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.y-bottom-left-corner {
+	position: absolute;
+	top: 160px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.letter-z {
+	position: relative;
+}
+
+.z-top-bar {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 60px;
+	height: 20px;
+	background: green;
+}
+
+.z-top-right-corner {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.z-middle-bar {
+	position: absolute;
+	top: 100px;
+	left: 84px;
+	width: 30.5px;
+	height: 41px;
+	background: green;
+	transform: skewX(-51deg);
+}
+
+.z-bottom-left-corner {
+	position: absolute;
+	top: 140px;
+	left: 59.4px;
+	width: 21.5px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.z-bottom-bar {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 60px;
+	height: 20px;
+	background: green;
+}
+
+.letter-0 {
+	position: relative;
+}
+
+.left-bar-0 {
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.top-left-corner-0 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.top-bar-0 {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.top-right-corner-0 {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px;
+}
+
+.right-bar-0 {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	width: 20px;
+	height: 60px;
+	background: green;
+}
+
+.bottom-right-corner-0 {
+	position: absolute;
+	top: 140px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.bottom-bar-0 {
+	position: absolute;
+	top: 140px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.bottom-left-corner-0 {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.letter-1 {
+	position: relative;
+}
+
+.left-serif-1 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-left-radius: 20px;
+}
+
+.stem-1 {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 20px;
+	height: 80px;
+	background: green;
+}
+
+.base-1 {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 60px;
+	height: 20px;
+	background: green;
+}
+
+.letter-4 {
+	position: relative;
+}
+
+.left-4 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 40px;
+	background: green;
+}
+
+.bottom-left-corner-4 {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.bottom-4 {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.stem-4 {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	width: 20px;
+	height: 100px;
+	background: green;
+}
+
+.letter-5 {
+	position: relative;
+}
+
+.top-bar-5{
+	position: absolute;
+	top: 60px;
+	Left: 80px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.top-left-corner-5 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+
+}
+
+.left-bar-5 {
+	position: absolute;
+	top: 80px;
+	Left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.middle-left-corner-5 {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-left-radius: 20px;
+}
+
+.middle-bar-5 {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.middle-right-corner-5 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-top-right-radius: 20px
+}
+
+.right-bar-5 {
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+}
+
+.bottom-right-corner-5 {
+	position: absolute;
+	top: 140px;
+	left: 100px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-bottom-right-radius: 20px;
+}
+
+.bottom-bar-5 {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	width: 40px;
+	height: 20px;
+	background: green;
+}
+
+.additionaltext {
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+	width: 1000px;
+}
+
+.sourcelink {
+	color: green;
+	font-weight: bold;
+}
+
+/* code copied from index for linking */
+
+}
+div.buttonzone {
+	padding-left: 20px;
+	font-family: Avenir;
+	border-style: solid;
+	border-color: #5e5e5e;
+	padding-bottom: 20px;
+
+}
