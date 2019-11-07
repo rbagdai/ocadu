@@ -1,0 +1,506 @@
+.text {
+  position: absolute;
+  left: 80px;
+}
+p {
+  width: 1200px;
+  padding: 1.5em;
+  background: #001540;
+  color: white;
+  font-size: 12px;
+  line-height: 1.5em;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.contentCanvas {
+  position: relative;
+  width: 1400px;
+  height: 800px;
+  left: 20px;
+}
+
+/* CANVAS 1 */
+
+/* all gosts */
+
+.mainghost {
+  position: absolute;
+  left: -700px;
+  top: -600px;
+  transform: scale(0.05);
+}
+
+.ghostTwo {
+  position: absolute;
+  left: -350px;
+  top: -600px;
+  transform: scale(0.03);
+}
+
+.ghostThree {
+  position: absolute;
+  left: -400px;
+  top: -300px;
+  transform: scale(0.04);
+}
+
+.ghostFour {
+  position: absolute;
+  left: -770px;
+  top: -200px;
+  transform: scale(0.05);
+}
+
+.ghost {
+  animation-name: ghostEffect;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.ghostTwoAnimate {
+  animation-name: ghostTwoEffect;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.ghostThreeAnimate {
+  animation-name: ghostThreeEffect;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.ghostFourAnimate {
+  animation-name: ghostFourEffect;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+/* All animations */
+
+@keyframes ghostEffect {
+  0% {
+    transform: scale(0.05);
+    left: -700px;
+    top: -600px;
+  }
+
+  20% {
+    transform: scale(0.07);
+    left: -500px;
+    top: -500px;
+  }
+
+  40% {
+    transform: scale(0.04);
+    left: -600px;
+    top: -400px;
+  }
+
+  60% {
+    transform: scale(0.04);
+    left: -550px;
+    top: -650px;
+  }
+
+  80% {
+    transform: scale(0.06);
+    left: -500px;
+    top: -500px;
+  }
+
+  100% {
+    transform: scale(0.05);
+    left: -700px;
+    top: -600px;
+  }
+}
+
+@keyframes ghostTwoEffect {
+  0% {
+    transform: scale(0.03);
+    left: -350px;
+    top: -600px;
+  }
+
+  20% {
+    transform: scale(0.05);
+    left: -450px;
+    top: -550px;
+  }
+
+  40% {
+    transform: scale(0.035);
+    left: -600px;
+    top: -450px;
+  }
+
+  60% {
+    transform: scale(0.06);
+    left: -500px;
+    top: -550px;
+  }
+
+  80% {
+    transform: scale(0.05);
+    left: -400px;
+    top: -500px;
+  }
+
+  100% {
+    transform: scale(0.03);
+    left: -350px;
+    top: -600px;
+  }
+}
+
+@keyframes ghostThreeEffect {
+  0% {
+    transform: scale(0.04);
+    left: -400px;
+    top: -300px;
+  }
+
+  20% {
+    transform: scale(0.07);
+    left: -550px;
+    top: -450px;
+  }
+
+  40% {
+    transform: scale(0.05);
+    left: -750px;
+    top: -150px;
+  }
+
+  60% {
+    transform: scale(0.06);
+    left: -500px;
+    top: -200px;
+  }
+
+  80% {
+    transform: scale(0.02);
+    left: -350px;
+    top: -250px;
+  }
+
+  100% {
+    transform: scale(0.04);
+    left: -400px;
+    top: -300px;
+  }
+}
+
+@keyframes ghostFourEffect {
+  0% {
+    transform: scale(0.05);
+    left: -770px;
+    top: -200px;
+  }
+
+  20% {
+    transform: scale(0.04);
+    left: -400px;
+    top: -250px;
+  }
+
+  40% {
+    transform: scale(0.03);
+    left: -500px;
+    top: -100px;
+  }
+
+  60% {
+    transform: scale(0.06);
+    left: -500px;
+    top: -150px;
+  }
+
+  80% {
+    transform: scale(0.03);
+    left: -700px;
+    top: -200px;
+  }
+
+  100% {
+    transform: scale(0.05);
+    left: -770px;
+    top: -200px;
+  }
+}
+
+
+.canvasOne {
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  left: 50px;
+  top: 120px;
+  background: #001c57;
+  animation-name: backChangeCanvasOne;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.canvasTwo {
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  right: 50px;
+  top: 120px;
+  background: #48ccdb;
+  animation-name: backChangeCanvasTwo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+body {
+  background: #c4ebf2;
+}
+
+@keyframes backChangeCanvasOne {
+  0% {
+    background: #001c57;
+  }
+
+  20% {
+    background: #001540;
+  }
+
+  40% {
+    background: #00316e;
+  }
+
+  60% {
+    background: #00224b;
+  }
+
+  80% {
+    background: #001b3a;
+  }
+
+  100% {
+    background: #001c57;
+  }
+}
+
+@keyframes backChangeCanvasTwo {
+  0% {
+    background: #48ccdb;
+  }
+
+  20% {
+    background: #22c2d4;
+  }
+
+  40% {
+    background: #83afb6;
+  }
+
+  60% {
+    background: #4999a3;
+  }
+
+  80% {
+    background: #0fb6c6;
+  }
+
+  100% {
+    background: #48ccdb;
+  }
+}
+
+
+/* clouds */
+
+.sun {
+  position: absolute;
+  left: -1100px;
+  top: -1140px;
+  transform: scale(0.08);
+  z-index: 1;
+}
+
+.city {
+  position: absolute;
+  left: -1430px;
+  top: -683px;
+  transform: scale(0.12);
+}
+
+.cloudOne {
+  position: absolute;
+  left: -300px;
+  top: -200px;
+  transform: scale(0.2);
+  z-index: 2;
+}
+
+.cloudTwo {
+  position: absolute;
+  left: -600px;
+  top: -100px;
+  transform: scale(0.1);
+  z-index: 2;
+}
+
+.cloudThree {
+  position: absolute;
+  left: -300px;
+  top: -30px;
+  transform: scale(0.15);
+  z-index: 2;
+}
+
+
+.cloudOneClick {
+  animation-name: cloudOneAnimate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.cloudTwoClick {
+  animation-name: cloudTwoAnimate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.cloudThreeClick {
+  animation-name: cloudThreeAnimate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.sunClick {
+  animation-name: sunAnimate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes cloudOneAnimate {
+  0% {
+    left: -300px;
+    opacity: 1;
+  }
+
+  25% {
+    left: -500px;
+    opacity: 1
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  50% {
+    left: -800px;
+    opacity: 0%
+  }
+
+  65% {
+    opacity: 0;
+  }
+
+  75% {
+    left: -500px;
+    opacity: 1
+  }
+
+  100% {
+    left: -300px;
+    opacity: 1;
+  }
+}
+
+@keyframes cloudTwoAnimate {
+  0% {
+    left: -600px;
+    opacity: 1;
+  }
+
+
+  50% {
+    left: -200px;
+    opacity: 1%
+  }
+
+  55% {
+    opacity: 0;
+  }
+
+
+  60% {
+    left: -150px;
+    opacity: 0;
+  }
+
+
+  75% {
+    left: -400px;
+    opacity: 1
+  }
+
+  100% {
+    left: -600px;
+    opacity: 1;
+  }
+}
+
+@keyframes cloudThreeAnimate {
+  0% {
+    left: -300px;
+    opacity: 1;
+  }
+
+  25% {
+    left: -500px;
+    opacity: 1
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  50% {
+    left: -800px;
+    opacity: 0%
+  }
+
+  65% {
+    opacity: 0;
+  }
+
+  75% {
+    left: -500px;
+    opacity: 1
+  }
+
+  100% {
+    left: -300px;
+    opacity: 1;
+  }
+}
+
+@keyframes sunAnimate {
+  0% {
+    transform: scale(0.08) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(0.08) rotate(360deg);
+  }
+}
