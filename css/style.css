@@ -10,11 +10,67 @@ div.separate {
 	font-family: Avenir;
 	background: #d4d4d4;
 }
+
 div.buttonzone {
+	position: relative;
 	padding-left: 20px;
 	font-family: Avenir;
 	border-style: solid;
 	border-color: #5e5e5e;
 	padding-bottom: 20px;
 
+}
+
+div.buttonzoneReadingResponseThree {
+	position: relative;
+	top: -900px;
+	padding-left: 20px;
+	font-family: Avenir;
+	border-style: solid;
+	border-color: #5e5e5e;
+	padding-bottom: 20px;
+
+}
+
+.readingResponseThreeQTwo {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	padding: 50px;
+	background: #ebebeb;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	border: 2px solid #1e1e1e;
+	z-index: 3;
+}
+
+.readingResponseThreeQTwoText {
+	position: relative;
+	top: 80px;
+	font-family: 'Space Mono', monospace;
+	color: #1e1e1e;
+}
+
+.readingResponseThreeBack1 {
+	position: relative;
+	top: -480px;
+	left: 20px;
+	width: 400px;
+	height: 400px;
+	padding: 50px;
+	background: #ebebeb;
+	border: 2px solid #1e1e1e;
+	z-index: 2;
+}
+.readingResponseThreeBack2 {
+	position: relative;
+	top: -960px;
+	left: 40px;
+	width: 400px;
+	height: 400px;
+	padding: 50px;
+	background: #ebebeb;
+	border: 2px solid #1e1e1e;
+	z-index: 1;
 }
