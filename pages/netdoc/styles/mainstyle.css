@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.menuCont {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+div.leftSideBar {
+  position: absolute;
+  width: 300px;
+  height: 85vh;
+  top: 100px;
+  left: 20px;
+  bottom: 20px;
+  background: #fff;
+  border: 5px #1e1e1e solid;
+}
+
+div.weekCont {
+  position: absolute;
+  top: 100px;
+  left: 340px;
+}
+
+div.week {
+  display: inline-block;
+  left: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+  width: 300px;
+  height: 100px;
+  background: #fff;
+  border: 5px #1e1e1e solid;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  align-content: center;
+}
+
+a {
+ color: #1e1e1e;
+ font-weight: bold;
+}
