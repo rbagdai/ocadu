@@ -21,7 +21,6 @@ body {
   font-size: 20px;
 }
 
-
 .sectiontitlesub {
   position: absolute;
   top: 40px;
@@ -41,14 +40,15 @@ body {
 }
 
 .mainHeading {
-    position: absolute;
-    width: 1450px;
-    height: 200px;
-    background: #6078d8;
-    align-content: center;
-    align: center;
-    text-align: center;
+  position: absolute;
+  width: 1450px;
+  height: 200px;
+  background: #6078d8;
+  align-content: center;
+  align: center;
+  text-align: center;
 }
+
 .heading {
   position: absolute;
   left: 19%;
@@ -100,10 +100,12 @@ body {
   align-content: center;
   align-items: center;
 }
+
 .sectiontitle.two {
   position: absolute;
   left: 37%;
 }
+
 .sectiontitlesub.two {
   position: absolute;
   left: -8%;
@@ -118,7 +120,6 @@ body {
   background: #edbbbb;
 }
 
-
 .sectiontitle.twoComparison {
   position: absolute;
   top: 700px;
@@ -129,6 +130,7 @@ body {
   position: absolute;
   left: 6%;
 }
+
 .sectionsub2.twoSM1 {
   position: absolute;
   top: 880px;
@@ -141,7 +143,6 @@ body {
   left: 0px;
   width: 500px;
   height: 500px;
-
 }
 
 .sectionsub2.twoSM2 {
@@ -156,7 +157,6 @@ body {
   left: 470px;
   width: 500px;
   height: 500px;
-
 }
 
 .sectionsub2.twoSM3 {
@@ -164,13 +164,13 @@ body {
   top: 880px;
   left: 1070px;
 }
+
 .hourlycomparisonSM3 {
   position: absolute;
   top: 940px;
   left: 950px;
   width: 500px;
   height: 500px;
-
 }
 
 .sectionsub2.twoSM4 {
@@ -178,13 +178,13 @@ body {
   top: 1500px;
   left: 300px;
 }
+
 .hourlycomparisonSM4 {
   position: absolute;
   top: 1540px;
   left: 190px;
   width: 500px;
   height: 500px;
-
 }
 
 .sectionsub2.twoSM5 {
@@ -192,13 +192,13 @@ body {
   top: 1500px;
   left: 850px;
 }
+
 .hourlycomparisonSM5 {
   position: absolute;
   top: 1540px;
   left: 750px;
   width: 500px;
   height: 500px;
-
 }
 
 .section3 {
@@ -213,7 +213,7 @@ body {
 
 .sectiontitlesub.three {
   position: absolute;
-  left: -2%
+  left: 2%
 }
 
 .sectionsub3 {
@@ -246,6 +246,7 @@ body {
   width: 600px;
   height: 600px;
 }
+
 .sectionsub3.two {
   position: absolute;
   top: 250px;
