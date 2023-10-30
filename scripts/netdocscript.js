@@ -246,23 +246,23 @@ window.onload = function() {
     chart.data = [{
       "name": "Facebook: 1hrs 30mins",
       "steps": 150,
-      "href": "../resources/net-doc-images/facebook.png"
+      "href": "https://www.svgrepo.com/download/494304/facebook-rounded.svg"
     }, {
       "name": "Instagram: 4hrs 15mins",
       "steps": 255,
-      "href": "../resources/net-doc-images/instagram.png"
+      "href": "https://www.svgrepo.com/download/494313/instagram-rounded.svg"
     }, {
       "name": "WhatsApp: 3hrs 3mins",
       "steps": 183,
-      "href": "../resources/net-doc-images/whatsapp.png"
+      "href": "https://www.svgrepo.com/download/446011/snapchat.svg"
     }, {
       "name": "Snapchat: 18mins",
       "steps": 18,
-      "href": "../resources/net-doc-images/social.png"
+      "href": "https://www.svgrepo.com/download/204949/whatsapp.svg"
     }, {
       "name": "Assignments: 45 minutes",
       "steps": 45,
-      "href": "../resources/net-doc-images/docs.png"
+      "href": "https://www.svgrepo.com/download/436729/doc-circle-fill.svg"
     }];
 
     var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
