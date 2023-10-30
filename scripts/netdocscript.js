@@ -262,7 +262,7 @@ window.onload = function() {
     }, {
       "name": "Assignments: 45 minutes",
       "steps": 45,
-      "href": "https://www.svgrepo.com/download/436729/doc-circle-fill.svg"
+      "href": "https://www.svgrepo.com/download/416619/document-ui-description.svg"
     }];
 
     var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
