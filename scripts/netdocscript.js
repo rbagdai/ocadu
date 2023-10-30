@@ -246,23 +246,23 @@ window.onload = function() {
     chart.data = [{
       "name": "Facebook: 1hrs 30mins",
       "steps": 150,
-      "href": "https://image.flaticon.com/icons/svg/145/145802.svg"
+      "href": "../resources/net-doc-images/facebook.png"
     }, {
       "name": "Instagram: 4hrs 15mins",
       "steps": 255,
-      "href": "https://image.flaticon.com/icons/svg/1409/1409946.svg"
+      "href": "../resources/net-doc-images/instagram.png"
     }, {
       "name": "WhatsApp: 3hrs 3mins",
       "steps": 183,
-      "href": "https://image.flaticon.com/icons/svg/733/733585.svg"
+      "href": "../resources/net-doc-images/whatsapp.png"
     }, {
       "name": "Snapchat: 18mins",
       "steps": 18,
-      "href": "https://image.flaticon.com/icons/svg/1383/1383266.svg"
+      "href": "../resources/net-doc-images/social.png"
     }, {
       "name": "Assignments: 45 minutes",
       "steps": 45,
-      "href": "https://image.flaticon.com/icons/svg/234/234648.svg"
+      "href": "../resources/net-doc-images/docs.png"
     }];
 
     var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
